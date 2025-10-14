@@ -14,10 +14,26 @@ const router = createRouter({
       name: 'login',
       component: () => import('../views/login.vue'),
     },
+    
+    {
+      path: '/about/history',
+      name: 'history',
+      component: () => import('../components/history.vue'),
+    },
+    {
+      path: '/about/values',
+      name: 'history',
+      component: () => import('../components/values.vue'),
+    },
     {
       path: '/contact',
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
+    },
+    {
+      path: '/gallery/pictures',
+      name: 'images',
+      component: () => import('../components/images.vue'),
     },
     {
       path: '/blog',

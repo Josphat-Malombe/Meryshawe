@@ -49,7 +49,7 @@ onBeforeUnmount(() => {
           </span>
           <div class="dropdown-menu" v-if="activeDropdown === 'about'">
             <router-link to="/about/history">School History</router-link>
-            <router-link to="/about/mission">Mission & Vision</router-link>
+            <router-link to="/about/values">Mission & Vision</router-link>
             <router-link to="/about/administration">Administration</router-link>
             <router-link to="/about/board">Board</router-link>
           </div>
@@ -165,7 +165,7 @@ onBeforeUnmount(() => {
 }
 
 .nav-item:hover {
-  color: #ffcc00;
+  color: maroon;
   transform: translateY(-2px);
 }
 
