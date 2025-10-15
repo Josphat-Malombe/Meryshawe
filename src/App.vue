@@ -1,6 +1,7 @@
 <script setup>
 import Appbar from './components/appbar.vue'
 import Footer from './components/Footer.vue'
+import ChatAgent from './components/ChatAgent.vue'
 import { RouterView } from 'vue-router'
 </script>
 
@@ -10,12 +11,12 @@ import { RouterView } from 'vue-router'
     <main class="page-content">
       <RouterView />
     </main>
+    <ChatAgent />
     <Footer />
   </div>
 </template>
 
 <style>
-/* These styles need to be global */
 html,
 body {
   margin: 0;
